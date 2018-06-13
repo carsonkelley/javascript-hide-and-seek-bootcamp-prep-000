@@ -5,6 +5,6 @@ function nestedTarget() {
   return document.querySelector("#nested .target")
 }
 function deepestChild() {
-  var top = document.querySelector("div#grand-node")
+  var top = document.querySelectorAll("div#grand-node div")
   return top.length
 }
