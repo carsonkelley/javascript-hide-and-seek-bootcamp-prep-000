@@ -1,10 +1,10 @@
 function getFirstSelector(selector) {
-  return document.querySelector(selector);
+  return document.querySelector(selector)
 }
 function nestedTarget() {
-  return document.querySelector("#nested .target");
+  return document.querySelector("#nested .target")
 }
 function deepestChild() {
-  var top = document.querySelector("div#grand-node");
-  console.log("what");
+  var top = document.querySelector("div#grand-node")
+  console.log("what")
 }
