@@ -6,7 +6,9 @@ function nestedTarget() {
 }
 function increaseRankBy(n) {
   var list = document.querySelectorAll(".ranked-list")
-  for(var i =)
+  for(let i = 0;i < list.length; i++) {
+    
+  }
 }
 function deepestChild() {
   var top = document.querySelectorAll("div#grand-node div")
